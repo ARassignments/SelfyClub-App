@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Selfy Club</string>
+    <string name="title_fingerprint">One-touch Sign In</string>
+    <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="note">Your device should have at least one fingerprint registered in device settings</string>
+    <string name="title_activity_home">Authentication</string>
+    <string name="uploads_disabled">File uploads are disabled.</string>
+    <string name="choose_upload">Choose file for upload</string>
+    <string name="desc">To accord quality \u0026 affordable healthcare services to the indigenous people of the state.</string>
+    <string name="google_signin">Please sign in using your assigned  Google Id. </string>
+    <string name="google_signin_hindi">(Kripaya aapka assigned Google Id use koren.) </string>
+    <string name="google_signin_assist">If you are not assigned access to your Google Id, please request for access by clicking here. </string>
+    <string name="google_signin_assist_hindi">Yadi appke paas aapka Google Id par access nahi hay, kripaya yahaan  click karen.</string>
+    <string name="copyright_text">Copyright @ 2016-2024 Arogyam Medisoft Solution Pvt Ltd All Rights Reserved</string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="terms"><u>Terms of Services</u></string>
+    <string name="contact"><u>Contact</u></string>
+
+    <string name="text1">Prepare ePrescription (ePrescription taiar karen)</string>
+    <string name="text2">View Patient Record (Mareejo ka medical record dekhen)</string>
+    <string name="text3">Edit ePrescription (ePrescription sangshodhit karen)</string>
+    <string name="text4">Send Patient Back to Spoke Clinic (Rogee ko spokan klinik mein vaapas bhejen)</string>
+    <string name="text5">Remove Patient from Physician Queue (Mareej ko soochee se hataen)</string>
+    <string name="text6">View \u0026 Print ePrescription (ePrescription dekhe aur print karen)</string>
+    <string name="text7">Start Video Consultation - Subcentres @ Bordumsa CHC (Video conference shuru karen)</string>
+    <string name="text8">Start Video Consultation - Subcentres @ Miao CHC (Video conference shuru karen)</string>
+    <string name="text9">Start Video Consultation - Subcentres @ Yatdam CHC (Video conference shuru karen)</string>
+    <string name="text10">Go Back to The Home Screen (Home skreen par vaapas jaen)</string>
+
+    <string name="clinic_text1">Sub Centres, CHC Bordumsa, Changlang District</string>
+    <string name="clinic_text2">Sub Centres, CHC Miao, Changlang District</string>
+    <string name="clinic_text3">Sub Centres, PHC Yatdam, Changlang District</string>
+    <string name="clinic_text4">Sub Centres, PHC Diyun, Changlang District</string>
+    <string name="clinic_text5">Go Back to Home Screen (Home skreen par vaapas jaen)</string>
+</resources>

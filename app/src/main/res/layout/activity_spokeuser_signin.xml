@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".UI.Spokeuser_signinActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_weight="7">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:src="@drawable/app_logo"/>
+
+    </RelativeLayout>
+</LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/background"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingHorizontal="50dp"
+                    android:text="Welcome To Arunachal Arogya Clinic"
+                    android:scaleX="1.1"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Please select your clinic."
+                    android:paddingHorizontal="30dp"
+                    android:textColor="#000"
+                    android:paddingVertical="5dp"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please click on the link below to perform the specific activities."
+            android:paddingHorizontal="20dp"
+            android:textColor="#212121"
+            android:paddingTop="25dp"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kripaya Neeche Diye Gaye Link Par Click Karen."
+            android:paddingHorizontal="20dp"
+            android:textColor="#212121"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            />
+
+        <LinearLayout
+            android:id="@+id/tv_clinic_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/button_background2"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:weightSum="10"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="@string/clinic_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#155469"
+                android:layout_weight="9"
+                android:textSize="14sp"
+                />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/right_arrow"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tv_clinic_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/button_background2"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:weightSum="10"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="@string/clinic_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#155469"
+                android:layout_weight="9"
+                android:textSize="14sp"
+                />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/right_arrow"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tv_clinic_text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/button_background2"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:weightSum="10"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="@string/clinic_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#155469"
+                android:layout_weight="9"
+                android:textSize="14sp"
+                />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/right_arrow"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tv_clinic_text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/button_background2"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:weightSum="10"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="@string/clinic_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#155469"
+                android:layout_weight="9"
+                android:textSize="14sp"
+                />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/right_arrow"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tv_clinic_text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/button_background2"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:weightSum="10"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:text="@string/clinic_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#155469"
+                android:layout_weight="9"
+                android:textSize="14sp"
+                />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/right_arrow"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
